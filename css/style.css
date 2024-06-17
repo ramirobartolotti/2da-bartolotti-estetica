@@ -1,0 +1,87 @@
+
+
+header{
+    background-color: aquamarine;
+}
+.menu nav{
+    display: inline-block;
+    width: 100%;
+}
+
+.menu nav h1{
+    margin: 0;
+}
+
+.menu nav ul{
+    text-align: center; 
+}
+
+.menu nav ul li {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 0px;
+    
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: rgb(4, 80, 80);
+    font-style: oblique;
+}
+
+.subtitulo {
+    font-style: oblique;
+}
+
+.banner{
+    text-align: center;
+}
+
+main img {
+    width: 80%;
+    padding-top: 15px;
+    height: 400px;
+}
+
+.capping {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+
+.esmaltado{
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+
+}
+
+.cejas {
+    width: 900px;
+    height: 500px;
+    padding: 5px;
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.whatsapp {
+    text-align: center;
+}
+
+.titlesn h1 {
+    text-align: center;
+
+}
+
+.maps {
+    text-align: center;
+}
