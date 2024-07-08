@@ -1,34 +1,6 @@
 
 
-header{
-    background-color: aquamarine;
-}
-.menu nav{
-    display: inline-block;
-    width: 100%;
-}
 
-.menu nav h1{
-    margin: 0;
-}
-
-.menu nav ul{
-    text-align: center; 
-}
-
-.menu nav ul li {
-    list-style: none;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    padding: 0px 5px;
-    margin: 0px;
-    
-}
-
-.menu nav ul li a {
-    text-decoration: none;
-    color: black;
-}
 
 h1{
     color: rgb(4, 80, 80);
