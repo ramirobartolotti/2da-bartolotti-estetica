@@ -81,16 +81,31 @@ footer {
     display: flex;
 
 }
+.presentacion {
+    width: 100vw;
+    text-align: center;
+  }
 
+.texto-presentacion {
+    color: rgb(39, 221, 228);
+    margin-left: 5%;
+    padding-bottom: 5%;
+  }
+
+  .foto-presentacion {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+  }
 .whatsapp {
     text-align: center;
 }
 
-.titlesn h1 {
-    text-align: center;
-
+.whatsapp a img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
-
 .maps {
     text-align: center;
 }
