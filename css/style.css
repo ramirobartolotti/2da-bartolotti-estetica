@@ -11,6 +11,13 @@ body {
     height: 100vh;
   }
 
+.menu {
+    box-shadow: rgba(226, 226, 183, 0.4588235294) 0px 0px 20px;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(17, 17, 17, 0.7960784314);
+    z-index: 1;
+}
 h1{
     color: rgb(4, 80, 80);
     font-style: oblique;
@@ -81,18 +88,35 @@ footer {
     display: flex;
 
 }
+
+.presentacion1{ 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: center;
+}
 .presentacion {
     width: 100vw;
     text-align: center;
+    height: 400px;
+    width: 400px;
+  
   }
+
+.texto-flex {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+}
 
 .texto-presentacion {
-    color: rgb(39, 221, 228);
-    margin-left: 5%;
-    padding-bottom: 5%;
+    color: rgb(255, 0, 200);
+    font-weight: bold;
+    margin: auto;
   }
 
-  .foto-presentacion {
+.foto-presentacion {
     border-radius: 50%;
     height: 400px;
     width: 400px;
