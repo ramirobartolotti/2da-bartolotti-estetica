@@ -57,70 +57,16 @@ footer {
     align-items: center;
   }
 
-  .item_contact--index {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-  }
-
 /**Atributos para index**/
 
-.content_index {
-  margin-top: 8%;
-  width: 100vw;
+.banner{
+    text-align: center;
 }
 
-.title_principal {
-  margin: 0%;
-  margin-top: 10%;
-  font-size: 4rem;
-}
-
-.subtitle {
-  font-size: 2rem;
-  margin-top: 0%;
-  border-bottom: solid 1px #e0e0d8;
-}
-
-.subtitle_index {
-  border: none;
-  text-align: center;
-  margin-left: 0%;
-}
-
-.name_index {
-  text-align: center;
-  display: block;
-}
-
-.first_content--index {
-  display: flex;
-  margin: 0%;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-.content_p--index {
-  width: 300px;
-  height: 300px;
-  padding-top: 4%;
-}
-
-.paragraph_index {
-  text-align: center;
-  margin: 10px;
-}
-
-.content_img--index {
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-}
-
-.photo_index {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+main img {
+    width: 80%;
+    padding-top: 15px;
+    height: 400px;
 }
 
 /**atributos sobre nosotras**/

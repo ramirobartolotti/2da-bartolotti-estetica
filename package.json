@@ -1,0 +1,12 @@
+{
+  "name": "mi-carpeta",
+  "version": "1.0.0",
+  "description": "En este repositorio estoy aprendiendo a crear mi primera pagina web. Utilizando herramientas como bootstrap y demas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "watch-css": "sass --watch scss/_style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
