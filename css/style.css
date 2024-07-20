@@ -74,6 +74,7 @@ footer {
   margin: 0%;
   margin-top: 10%;
   font-size: 4rem;
+  text-align: center;
 }
 
 .subtitle {
@@ -95,18 +96,19 @@ footer {
 
 .first_content--index {
   display: flex;
+  flex-wrap: wrap;
   margin: 0%;
   justify-content: center;
   margin-top: 100px;
 }
 
-.content_p--index {
+.cont_p-index {
   width: 300px;
   height: 300px;
   padding-top: 4%;
 }
 
-.paragraph_index {
+.p_index {
   text-align: center;
   margin: 10px;
 }
@@ -125,6 +127,14 @@ footer {
 
 /**atributos sobre nosotras**/
 
+.titulos-generales {
+  margin-left: 10%;
+  margin-top: 8%;
+  width: max-content;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
 .presentacion1{ 
     display: flex;
     flex-wrap: wrap;
@@ -141,15 +151,16 @@ footer {
   
 .texto-flex {
       text-align: center;
-      height: 400px;
-      width: 400px;
       justify-content: center;
+      width: 300px;
+      height: 300px;
+      padding-top: 4%;
   }
   
 .texto-presentacion {
       color: rgb(255, 255, 255);
-      font-weight: bold;
-      margin: auto;
+      text-align: center;
+      margin: 10px;
     }
   
 .foto-presentacion {
@@ -195,4 +206,9 @@ footer {
 
 .maps {
     text-align: center;
+}
+
+.p-general {
+  text-align: center;
+  font-size: 1.75rem;
 }
