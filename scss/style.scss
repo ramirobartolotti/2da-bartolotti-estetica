@@ -1,0 +1,214 @@
+/**Atributos generales**/ 
+*{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(250, 243, 233);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/imagen-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+/**Atributos para el nav**/
+
+.menu {
+    box-shadow: rgba(226, 226, 183, 0.4588235294) 0px 0px 20px;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(17, 17, 17, 0.7960784314);
+    z-index: 1;
+}
+
+/**Atributos para el footer**/
+
+footer {
+    color: aliceblue;
+    width: 100vw;
+    text-align: center;
+    box-shadow: rgba(99, 99, 92, 0.459) 0px 0px 4px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.337254902);
+  }
+
+.copyright {
+    margin-bottom: 0;
+  }
+  
+.icono_footer {
+    width: 18px;
+  }
+  
+.foot_index {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item_contact--index {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+
+/**Atributos para index**/
+
+.content_index {
+  margin-top: 8%;
+  width: 100vw;
+}
+
+.title_principal {
+  margin: 0%;
+  margin-top: 10%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-top: 0%;
+  border-bottom: solid 1px #e0e0d8;
+}
+
+.subtitle_index {
+  border: none;
+  text-align: center;
+  margin-left: 0%;
+}
+
+.name_index {
+  text-align: center;
+  display: block;
+}
+
+.first_content--index {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cont_p-index {
+  width: 300px;
+  height: 300px;
+  padding-top: 4%;
+}
+
+.p_index {
+  text-align: center;
+  margin: 10px;
+}
+
+.content_img--index {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.photo_index {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/**atributos sobre nosotras**/
+
+.titulos-generales {
+  margin-left: 10%;
+  margin-top: 8%;
+  width: max-content;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.presentacion1{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: center;
+  }
+
+.presentacion {
+      width: 100vw;
+      text-align: center;
+      height: 400px;
+      width: 400px;
+    }
+  
+.texto-flex {
+      text-align: center;
+      justify-content: center;
+      width: 300px;
+      height: 300px;
+      padding-top: 4%;
+  }
+  
+.texto-presentacion {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin: 10px;
+    }
+  
+.foto-presentacion {
+      border-radius: 50%;
+      height: 400px;
+      width: 400px;
+  }
+
+/**Atributos para turnos**/
+
+.whatsapp {
+    text-align: center;
+}
+
+.whatsapp a img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+/**Atributos para Servicios**/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.trabajos {
+  width: 500px;
+  height: 500px;
+  margin: 5px;
+}
+
+@media (max-width: 768px) { 
+  .trabajos{ 
+    width: 100%;
+    margin: 5%;
+  }
+}
+
+/**Atributos para como llegar**/
+
+.maps {
+    text-align: center;
+}
+
+.p-general {
+  text-align: center;
+  font-size: 1.75rem;
+}
