@@ -190,6 +190,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+  }
   .trabajos {
     width: 100%;
     margin: 5%;
