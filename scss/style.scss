@@ -1,8 +1,11 @@
+@import "./mix/mixins";
+@import "./var/variables";
+
 /**Atributos generales**/
 * {
+  color: $col_white;
   font-family: "Montserrat", sans-serif;
-  color: rgb(250, 243, 233);
-}
+ }
 
 body {
   box-sizing: border-box;
@@ -99,9 +102,17 @@ footer {
   margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+  .first_content--index {
+      flex-wrap: wrap;
+  }
+  .title_principal {
+      margin-top: 20%;
+  }
+}
+
 .cont_p-index {
-  width: 300px;
-  height: 300px;
+  @include sizes (300px, 300px);
   padding-top: 4%;
 }
 
@@ -111,8 +122,7 @@ footer {
 }
 
 .content_img--index {
-  width: 300px;
-  height: 300px;
+  @include sizes(300px, 300px);
   margin-right: 20px;
 }
 
@@ -186,7 +196,7 @@ footer {
 .trabajos {
   width: 500px;
   height: 500px;
-  margin: 5px;
+  margin: 2px;
 }
 
 @media (max-width: 768px) {
@@ -195,7 +205,8 @@ footer {
   }
   .trabajos {
     width: 100%;
-    margin: 5%;
+    margin: 0%;
+    padding: 1%;
   }
 }
 /**Atributos para como llegar**/
@@ -208,3 +219,12 @@ footer {
   font-size: 1.75rem;
 }
 
+main div iframe {
+  max-width: 768px;
+}
+
+@media (max-width: 768px) {
+  .maps {
+    width: 300px;
+  }
+}
